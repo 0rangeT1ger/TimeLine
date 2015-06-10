@@ -18,7 +18,6 @@ body{
     position: absolute;
     width: 100vw;
     height: 35vh;
-    box-shadow: 0 5px 30px black;
     display: flex;
     display: -webkit-flex;
 }
@@ -31,7 +30,6 @@ body{
 .timeCol>p{
     margin: auto auto auto auto;
     font-size: 3vw;
-    color: white;
 }
 .continentCol{
     flex: 4;
@@ -86,18 +84,7 @@ body{
     top: 170vh;
     z-index: 94;
 }
-.red{
-    background-color: #ff85ad;
-}
-.green{
-    background-color: limegreen;
-}
-.blue {
-    background-color: royalblue;
-}
-.purple{
-    background-color: mediumpurple;
-}
+
 .appIconContainer{
     width: 80px;
     position: relative;
