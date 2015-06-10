@@ -116,7 +116,7 @@ body{
 .appDetail{
     width: 100px;
     padding: 10px;
-    box-shadow: 10px 10px 20px #999999;
+    box-shadow: 5px 5px 20px black;
     background-color: #eeeeee;
     font-size: .8vw;
     position: absolute;
