@@ -1,0 +1,125 @@
+body{
+    font-family: "Microsoft Yahei","Helvetica Neue", Helvetica, STHeiTi, sans-serif;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.wrapper{
+    position: absolute;
+    width: 100vw;
+    height: 210vh;
+}
+.background{
+    position: absolute;
+    width: 100vw;
+    height: 35vh;
+    box-shadow: 0 5px 30px black;
+    display: flex;
+    display: -webkit-flex;
+}
+.timeCol{
+    flex: 1;
+    -webkit-flex: 1;
+    display: flex;
+    display: -webkit-flex;
+}
+.timeCol>p{
+    margin: auto auto auto auto;
+    font-size: 3vw;
+    color: white;
+}
+.continentCol{
+    flex: 4;
+    -webkit-flex: 4;
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: column;
+}
+.upperRow{
+    display: flex;
+    display: -webkit-flex;
+    flex: 1;
+    -webkit-flex: 1;
+}
+.bottomRow{
+    display: flex;
+    display: -webkit-flex;
+    border-top: 5px solid #222222;
+    flex: 1;
+    -webkit-flex: 1;
+}
+.header{
+    width: 100vw;
+    height: 30vh;
+    background-color: rgb(255, 78, 18);
+    position: absolute;
+    top: 0;
+    box-shadow: 0 5px 30px black;
+    z-index: 99;
+    line-height: 30vh;
+    color: #eeeeee;
+    font-size: 3vw;
+    text-align: center;
+}
+.January{
+    top: 30vh;
+    z-index: 98;
+}
+.February{
+    top: 65vh;
+    z-index: 97;
+}
+.March{
+    top: 100vh;
+    z-index: 96;
+}
+.April{
+    top: 135vh;
+    z-index: 95;
+}
+.May{
+    top: 170vh;
+    z-index: 94;
+}
+.red{
+    background-color: #ff85ad;
+}
+.green{
+    background-color: limegreen;
+}
+.blue {
+    background-color: royalblue;
+}
+.purple{
+    background-color: mediumpurple;
+}
+.appIconContainer{
+    width: 80px;
+    position: relative;
+    float: left;
+    margin: auto;
+    /*unfinished*/
+}
+.appIcon{
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    position: relative;
+    float: left;
+    box-shadow: 3px 3px 10px #222222;
+}
+.appDetail{
+    width: 100px;
+    padding: 10px;
+    box-shadow: 10px 10px 20px #999999;
+    background-color: #eeeeee;
+    font-size: .8vw;
+    position: absolute;
+    z-index: 100;
+    top: 50px;
+}
